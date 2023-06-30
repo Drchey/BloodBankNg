@@ -1,13 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito';
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*  Color Palette */
+
+.bg-crimson {
+  background-color: #660000;
+}
+
+.text-crimson {
+  color: #800000;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-muted-blue {
+  background-color: #4b4f72;
+}
+
+.text-muted-blue {
+  color: #4b4f72;
+}
+
+.btn-muted-blue {
+  background-color: #4b4f72;
+  color: #fff;
+}
+
+.btn-outlined-muted-blue {
+  color: #4b4f72;
+  border: 2px solid #4b4f72;
+}
+
+.btn-outlined-muted-blue {
+  border: 2px solid #4b4f72;
+}
+
+.btn-muted-blue:hover {
+  background-color: #4b4f72;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+header {
+  font-size: 49px;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-dimPrimary {
+  background: #37474f;
+  color: #ff8f00;
+}
+
+.bg-dimWhite {
+  background: #9e9e9e;
+}
+
+label {
+  font-size: 20px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  background: #fff;
+  /* align-items: center; */
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  flex: 6;
+}
+
+.central {
+  padding: 20px;
+}
+
+.profile_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.page-color {
+  color: #c2185b;
+}
+
+.bg-page-color {
+  background: #c2185b;
 }

@@ -1,0 +1,6 @@
+export { Login } from './login/Login'
+export { Register } from './register/Register'
+export { Products } from './products/Products'
+export { CreateProduct } from './products/CreateProduct'
+export { Dashboard } from './dashboard/Dashboard'
+export { Shop } from './shop/Shop'

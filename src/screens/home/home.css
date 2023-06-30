@@ -1,0 +1,66 @@
+.home {
+  padding: 20px;
+  box-width: border-box;
+  overflow-x: hidden;
+  /* background-color: red; */
+  /* color: red; */
+}
+
+.header_title {
+}
+
+.login_btn,
+.sign_up_btn {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.sign_up_btn {
+  background: #512da8;
+  color: white;
+}
+
+.welcome-links > li {
+  padding: 0px 10px;
+  font-weight: 600;
+  color: #90a4ae;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.welcome-links > li:hover {
+  font-size: 21px;
+  color: #607d8b;
+}
+
+.tag {
+  background: #e0f7fa;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.home-header {
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.home-desc {
+  font-weight: 200;
+  font-size: 23px;
+}
+
+.welcome-btn {
+  margin: 30px 0px 0px 0px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background: #ff4081;
+}
+
+.home-img {
+  border-radius: 50%;
+}

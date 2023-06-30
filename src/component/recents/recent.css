@@ -1,0 +1,10 @@
+.recent {
+  flex: 3;
+}
+
+.recent-img {
+  height: 100px;
+  border: 2px solid #eee;
+  padding: 3px;
+  object: contain;
+}

@@ -1,0 +1,8 @@
+.activity {
+  flex: 3;
+  padding: 10px;
+}
+
+.activity > h4 {
+  font-weight: bolder;
+}

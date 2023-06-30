@@ -1,0 +1,26 @@
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+}
+
+ul {
+  align-content: center;
+  text-align: right;
+}
+
+.list__sidebar {
+  list-style: none;
+}
+
+.list__sidebar:hover {
+  background: #f08080;
+  border-radius: 10px;
+  padding: 1px 1px;
+  justify-content: center;
+  align-items: center;
+  color: #f08080;
+}
+
+.border_1 {
+  padding: 1px 3px;
+}

@@ -1,0 +1,4 @@
+.chart_grid {
+  display: grid;
+  grid-template: auto / auto auto auto;
+}

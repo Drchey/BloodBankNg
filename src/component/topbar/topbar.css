@@ -1,0 +1,38 @@
+.top__bar {
+  width: 100%;
+  height: 10vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 0.2px solid #cfd8dc;
+}
+
+.topbar__title {
+  display: flex;
+  align-items: center;
+}
+
+.topbar__title > i {
+  font-size: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.topbar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.align_tables {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 680px) {
+  .align_tables {
+    flex-direction: column;
+  }
+}

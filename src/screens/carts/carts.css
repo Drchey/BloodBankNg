@@ -1,0 +1,20 @@
+.item-img {
+  height: 200px;
+  width: 200px;
+}
+
+.item-desc {
+  font-size: 22px;
+}
+
+.item-stock {
+  font-weight: light;
+  margin-top: 10px;
+  color: teal;
+}
+
+.items-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

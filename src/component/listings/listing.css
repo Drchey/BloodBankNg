@@ -1,0 +1,25 @@
+.listings {
+  padding: 2px;
+  display: grid;
+  grid-template: auto / auto auto auto;
+}
+
+.listing {
+  padding: 5px;
+}
+
+.listing-img {
+  height: 300px;
+}
+
+.listing-img:hover {
+  height: 340px;
+  transform: ease-in-out;
+  transition: all 0.5s;
+}
+
+.listing-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

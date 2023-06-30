@@ -1,0 +1,23 @@
+.profile {
+  flex: 1;
+  min-height: 150px;
+}
+
+.profile__img {
+  border: 3px solid #4b4f72;
+  height: 130px;
+  border-radius: 50%;
+  padding: 1px;
+  object: cover;
+}
+
+.settings {
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  right: 0;
+}
+
+.settings > i {
+  cursor: pointer;
+}
