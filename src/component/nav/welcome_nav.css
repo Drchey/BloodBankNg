@@ -1,0 +1,9 @@
+.nav_links {
+}
+
+@media (max-width: 768px) {
+  .nav-links,
+  .bltn {
+    display: none;
+  }
+}

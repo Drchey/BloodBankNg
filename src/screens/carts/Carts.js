@@ -17,8 +17,8 @@ const Carts = () => {
       <div className="main-content">
         <Sidebar />
         <div className="content">
-          <div className="carts d-flex row p-3">
-            <div className="shop-items col-8 h-auto p-3">
+          <div className="carts d-flex cart-flex p-3">
+            <div className="shop-items cart-listing h-auto p-3">
               <div className="d-flex align-content-center justify-content-between">
                 <h3 className="fw-bold text-muted-blue">Shopping Cart</h3>
                 {/* <span className="fw-light">Price</span> */}
@@ -69,7 +69,7 @@ const Carts = () => {
                 ))}
               </div>
             </div>
-            <div className="receipts col-4 p-3 ">
+            <div className="receipts p-3 ">
               <div className="">
                 <h4 className="card_header fw-bold text-muted-blue">
                   Price Details

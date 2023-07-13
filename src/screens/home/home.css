@@ -64,3 +64,15 @@
 .home-img {
   border-radius: 50%;
 }
+
+.center_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .center_flex {
+    flex-direction: column;
+  }
+}

@@ -115,3 +115,20 @@ label {
 .bg-page-color {
   background: #c2185b;
 }
+
+.auth_btn {
+  cursor: pointer;
+}
+
+.auth_btn:hover {
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.7s ease;
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}

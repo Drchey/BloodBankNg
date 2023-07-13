@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <Welcomenav />
 
-      <div className="mt-5 d-flex align-items-center justify-content-between">
+      <div className="mt-5 center_flex">
         <div className="flex-1">
           <span className="tag">
             <i className="fas fa-percent mx-1"></i>

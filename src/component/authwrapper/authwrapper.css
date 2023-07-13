@@ -1,4 +1,4 @@
-.wrapper {
+.authwrapper {
   flex: 1;
   display: flex;
   align-items: center;
@@ -16,4 +16,10 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .authwrapper {
+    display: none;
+  }
 }

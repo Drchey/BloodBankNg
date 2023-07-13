@@ -43,8 +43,8 @@ export class Products extends Component {
                 <h4 className="text-semibold text-info">Loading ...</h4>
               )}
               {data ? (
-                <div className="row align_tables">
-                  <div className="col-9">
+                <div className="products align_tables">
+                  <div className="products_listing">
                     <table className="table table-responsive border rounded-2">
                       <thead className="bg-crimson text-white">
                         <tr>
@@ -74,7 +74,7 @@ export class Products extends Component {
                       </tbody>
                     </table>
                   </div>
-                  <div className="col-3">
+                  <div className="products_log">
                     <h5 className="text-right text-muted-blue fw-bolder mb-3">
                       Latest Logs
                     </h5>

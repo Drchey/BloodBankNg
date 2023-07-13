@@ -3,3 +3,23 @@
   border: 2px solid #01579b;
   border-radius: 50%;
 }
+
+.profile-flex {
+  display: flex;
+  align-content: top;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .profile-flex {
+    flex-direction: column;
+  }
+
+  .request_img {
+    height: 50px;
+    border: 1px solid #01579b;
+    border-radius: 50%;
+    object: fit;
+    width: 50px;
+  }
+}

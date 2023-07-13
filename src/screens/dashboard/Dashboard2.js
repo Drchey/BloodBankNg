@@ -4,6 +4,7 @@ import Sidebar from '../../component/sidebar/Sidebar'
 import Nav2 from '../../component/nav2/Nav2'
 import Profile from '../../component/profile/Profile'
 import Recent from '../../component/recents/Recent'
+import './dashboard.css'
 
 const Dashboard2 = () => {
   return (
@@ -15,7 +16,7 @@ const Dashboard2 = () => {
           <div className="central">
             <Nav2 />
 
-            <div className="d-flex align-items-top justify-content-between mt-4">
+            <div className="profile-flex mt-4">
               <Profile />
               <Recent />
             </div>

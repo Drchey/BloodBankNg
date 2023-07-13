@@ -10,8 +10,8 @@ const Category = () => {
         <Sidebar />
         <div className="content">
           <div className="central">
-            <div className="d-flex align-content-between">
-              <div className="card" style={{ flex: 1 }}>
+            <div className="category">
+              <div className="card card_crud">
                 <div className="card-header bg-crimson text-white fw-bold">
                   Category
                 </div>
@@ -37,7 +37,7 @@ const Category = () => {
                   </div>
                 </div>
               </div>
-              <div className="card mx-3" style={{ flex: 2 }}>
+              <div className="card  card_listings">
                 <div className="card-header bg-crimson text-white fw-bold">
                   Category Listings
                 </div>

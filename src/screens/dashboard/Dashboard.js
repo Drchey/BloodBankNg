@@ -19,22 +19,19 @@ export class Dashboard extends Component {
             <div className="central">
               <Nav />
 
-              <div className="d-flex align-items-center justify-content-between">
+              <div className="widget-flex">
                 <Widget title={'Total Revenue'} icon="fas fa-shopping-cart" />
                 <Widget title={'Pending Orders'} />
                 <Widget title={'Users'} />
                 <Widget title={'Products'} />
               </div>
 
-              <div
-                className="d-flex mt-4 align-items-center justify-content-between
-              "
-              >
+              <div className="mt-5 widget-flex">
                 <Activity />
                 <Invoice />
               </div>
 
-              <div className="card">
+              <div className="card mt-5">
                 <div className="p-3 fw-bold d-flex align-content-center justify-content-between mt-5">
                   <h5 className="text-muted-blue">Recent Requests</h5>
                   <button className="btn btn-muted-blue">Actions</button>

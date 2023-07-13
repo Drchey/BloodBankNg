@@ -1,0 +1,26 @@
+.category {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.card_crud {
+  flex: 1;
+}
+
+.card_listings {
+  flex: 2;
+  margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+  .category {
+    flex-direction: column;
+  }
+
+  .card_listings {
+    width: 100%;
+    padding: 0%;
+    margin: 10px 0px;
+  }
+}

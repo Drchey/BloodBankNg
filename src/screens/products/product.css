@@ -2,3 +2,24 @@
   border-radius: 4px solid #000;
   min-height: 10vh;
 }
+
+.products {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.products_listing {
+  flex: 3;
+}
+
+.products_log {
+  flex: 1;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .products {
+    flex-direction: column;
+  }
+}

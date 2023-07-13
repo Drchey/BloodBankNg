@@ -5,13 +5,13 @@ const Welcomenav = () => {
   return (
     <div className="d-flex items-center justify-content-between ">
       <div className="d-flex items-center justify-content-between">
-        <h3 className="header_title text-secondary">
+        <p className="header_title text-secondary">
           <i className="fas fa-droplet text-danger"></i>
-          <span className="ml-4 text-capitalize fw-bold">BloodBankNg</span>
-        </h3>
+          <span className="text-capitalize fw-bold">BloodBankNg</span>
+        </p>
       </div>
 
-      <div>
+      <div className="nav-links">
         <ul className="d-flex list-unstyled welcome-links">
           <li>
             <Link to="/about">About</Link>
@@ -23,7 +23,7 @@ const Welcomenav = () => {
           <li>Testimonials</li>
         </ul>
       </div>
-      <div>
+      <div className="bltn">
         <button className="login_btn">
           <Link to="/login">Login</Link>
         </button>

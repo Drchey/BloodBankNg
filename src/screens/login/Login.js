@@ -51,7 +51,7 @@ export class Login extends Component {
               <div className="mt-5">
                 <span className="account_navigate">
                   Don't Have an Account?{' '}
-                  <Link to="/register" className="ml-3">
+                  <Link to="/register" className="ml-3 auth_btn">
                     Register Here
                   </Link>
                 </span>

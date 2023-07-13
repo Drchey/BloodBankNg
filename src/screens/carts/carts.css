@@ -18,3 +18,23 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.cart-flex {
+  display: flex;
+  align-content: top;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .cart-flex {
+    flex-direction: column;
+  }
+
+  .cart-listing {
+    flex: 2;
+  }
+
+  .reciept__lsiting {
+    flex: 1;
+  }
+}

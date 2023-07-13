@@ -24,3 +24,9 @@ ul {
 .border_1 {
   padding: 1px 3px;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

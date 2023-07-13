@@ -64,7 +64,7 @@ export class Register extends Component {
                 <div className="mt-5">
                   <span className="account_navigate">
                     Already Have An Account?{' '}
-                    <Link to="/login" className="pl-3">
+                    <Link to="/login" className="pl-3 auth_btn">
                       Log In
                     </Link>
                   </span>

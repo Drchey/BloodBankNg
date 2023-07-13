@@ -9,6 +9,10 @@
   border-bottom: 0.2px solid #cfd8dc;
 }
 
+.small_top_bar {
+  display: none;
+}
+
 .topbar__title {
   display: flex;
   align-items: center;
@@ -31,8 +35,18 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 680px) {
-  .align_tables {
-    flex-direction: column;
+@media (max-width: 768px) {
+  .small_top_bar {
+    display: block;
+    height: 100px;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .top__bar {
+    display: none;
   }
 }

@@ -41,6 +41,10 @@ form {
   justify-content: space-between;
 }
 
+.auth_btn {
+  cursor: pointer;
+}
+
 .button {
   border: none;
   padding: 10px;
@@ -51,4 +55,7 @@ form {
 
 .button:hover {
   background: #880e4f;
+}
+
+@media (max-width: 768px) {
 }
